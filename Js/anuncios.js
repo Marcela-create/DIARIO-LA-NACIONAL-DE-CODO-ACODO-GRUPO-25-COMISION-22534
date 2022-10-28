@@ -1,6 +1,6 @@
 "use estrict"
 let imagen = document.getElementById("anuncios")
-const marcas = ["bbva", "turkish", "cocacola","carrefour","autom","coto"]
+const marcas = ["bbva", "turkish", "cocacola","carrefour","coto"]
 let num = 0
 const timer = () =>{
     

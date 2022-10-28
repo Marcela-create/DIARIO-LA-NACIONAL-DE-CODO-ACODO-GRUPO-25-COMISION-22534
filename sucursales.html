@@ -16,14 +16,13 @@
   </head>
  <body>
     <header>
-
-       <div class="titulo">         
+        <div class="titulo">         
             <img class="logo" src="img/LN mediano.jpg"> 
-          <div id="fecha2" class="digitalizado2">
-             <script >
-                 document.write(dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' + meses[fecha.getMonth()] + ' de ' + fecha.getUTCFullYear());          
-             </script> 
-          </div>      
+            <div id="reloj"class="digital" >
+                <script >
+                  document.write("Hora:"+ getHours(),"Minutos: "+ getMinutes(),"Segundos: "+ getSeconds());
+                </script>
+              </div>  
           <div class="encabezado">
              <h1>Diario La Nacional</h1>
               <div class="btn_menu"><a>menu</a></div>

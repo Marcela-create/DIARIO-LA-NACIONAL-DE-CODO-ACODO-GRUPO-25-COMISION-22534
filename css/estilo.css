@@ -116,7 +116,7 @@ footer span img{
     max-height:20px;
 }
 .imgArticle{  /*imagenes del index*/
-    width: 99%;
+    width: 90%;
     border: 10px;
     padding: 0px;
     height: auto;
@@ -124,6 +124,8 @@ footer span img{
     border-style: ridge;
     border-radius: 6px;
     border: #7145e9;
+    text-align: center;
+    
 } 
 .link-2 a{
     text-decoration: none;
@@ -134,9 +136,9 @@ article{
     background-color: rgb(164, 175, 218);
     display: grid;
     border: solid rgb(75, 75, 162);
-   
+    margin: auto;
    justify-content: center;
-   width: 350px;
+   width: 340px;
    border-radius: 6px;
 }
 /*casa de cambio*/
@@ -173,31 +175,36 @@ article{
     background-color: #0016b0;
     color: white;
 }
+.container-dolar{
+    background-color: #f5e531;
+    margin: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
 
+.titulo-dolar{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.venta{
+    margin: 15px 0;
+}
+
+.compra{
+    margin: 15px 0;
+}
 /*anuncios del carroussel*/
-.anuncios{
+#anuncios{
     width: 100%;
-    height: 150px;
-    margin-top: 40px;
+    height: 180px;
+    margin-top: 5px;
 }
-/*reloj*/
-#reloj{
-    width: 100%;
-    border: 10px;
-    padding: 1px;
-    height: 30%;
-    image-orientation: center;
-    border-style: ridge;
-    border-radius: 6px;
-}
-.digital{
-    font-family: "DS-Digital";    
-    background-color: black;
-    font-size:50px;
-    color: green ; 
-    text-align: center;
-   
-}
+
 /*fecha*/
 #fecha{
     width: 100%;
@@ -215,25 +222,29 @@ article{
     font-size:25px;
     color: green ; 
     text-align: center;
-   
+    margin-top: 20px;
 }
-/*fecha del título*/
-.digitalizado2{
-    font-family: "DS-Digital";
-    background-color: black;
-    color: rgb(193, 230, 32) ;
-}
-#fecha2{
-    width: 50%;
+/*reloj del título*/
+
+#reloj{
+    width: min-content;
     border: 10px;
-    padding: 1px;
-    height: 30%;
+    padding: 0px;
+    height: 0%;
     image-orientation: center;
     border-style: ridge;
     border-radius: 6px;
     display: flex;
 }
-/*sección deporte*/
+.digital{
+    font-family: "DS-Digital";
+    background-color: black;
+    color: rgb(193, 230, 32) ; 
+    font-size:30px;
+    text-align: center;
+    width: min-content;
+}
+/*sección deporte y company de espectaculos*/
 .imagDeporte{
     width:min-content;
         border: 10px;
@@ -264,6 +275,7 @@ article{
     border: 1px solid rgb(36, 5, 160);
     margin: 5px;
 }
+/*presentacion de la tabla de deporte*/
 .form-campeon {
     background-color:rgb(164, 175, 218);
     width: auto;  
@@ -435,7 +447,7 @@ aside{
     }
     /*seccion index*/
     .imgArticle{  /*imagenes del index*/
-        width: 99%;
+        width: 90%;
         border: 10px;
         padding: 0px;
         height: auto;
@@ -447,16 +459,18 @@ aside{
     .link-2 a{
         text-decoration: none;
         margin-top: -20px;
+        text-align: center;
     }
-    /*sección article del home*/
+    /*sección article del home y politica*/
     article{
         background-color: rgb(164, 175, 218);
         display: grid;
         border: solid rgb(75, 75, 162);
         margin: 20px;
        justify-content: center;
-       width: 500px;
+       width: 480px;
        border-radius: 6px;
+       text-align: center;
     }
     
     
@@ -481,14 +495,15 @@ aside{
      /*casa de cambio*/
     .container2{
         width: 100%;
+        height: 900px;
         image-orientation: center;
         border-style: ridge;
         border-radius: 6px;
      }
     .formulario{
         background-color: #f5e531;
-        width:350px;
-        height: 200px;
+        width:358px;
+        height: 180px;
         margin: 20px;
         margin-top: 5px;
         font-size: 19px;
@@ -508,24 +523,33 @@ aside{
        background-color: #0016b0;
        color: white;
     }
-    /* reloj*/
-    #reloj{
-       width: 100%;
-       border: 10px;
-       padding: 1px;
-       height: 30%;
-       image-orientation: center;
-       border-style: ridge;
-       border-radius: 6px;
+    .container-dolar{
+        background-color: #f5e531;
+        margin: 20px;
+        width: 358px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: monospace;
+        text-decoration-line: underline;
+        margin-top: 0px;
+        margin-bottom: -150px;
     }
-    .digital{
-      font-family: "DS-Digital"; 
-      width: 350px; 
-      background-color: black;
-      font-size:50px;
-      color: green ; 
-      text-align: center;
-   
+    
+    .titulo-dolar{
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .venta{
+        margin: 15px 0;
+    }
+    
+    .compra{
+        margin: 15px 0;
+    }
+    
     }/*fecha*/
     #fecha{
        width: 100%;
@@ -543,27 +567,12 @@ aside{
        color: green ; 
        text-align: center;
     }
-    /*fecha del título*/
-    .digitalizado2{
-    background-color: black;
-    color: rgb(193, 230, 32) ;
-    }
-    #fecha2{
-       width: 50%;
-       border: 10px;
-       padding: 1px;
-       height: 30%;
-       image-orientation: center;
-       border-style: ridge;
-       border-radius: 6px;
-       display: flex;
-    }
     
      /* anuncios del carroussel*/
    .anuncios{
        width: 100%;
-       height: 150px;
-       margin-top: 40px;
+       height: 180px;
+       margin-top: 30px;
     }
   /* secciondeporte*/
    .imagDeporte{
@@ -582,7 +591,7 @@ aside{
         width: 90%;
         margin-bottom: 5px;
     }
-     /*las leonas*/
+     /*las leonas de deportes y company de espectaculos*/
     .deportes{
         background-color:rgb(90, 110, 190);
         width: 900px;  
@@ -700,7 +709,7 @@ aside{
 .map > iframe{
    margin: 0.1rem;
    width: 220px;
-    margin-top: 03px;
+    margin-top: 10px;
     
 }
 
@@ -750,5 +759,4 @@ aside{
 .opciones{
     background: #b4a0eb;
     width: max-content;
-}
 }
