@@ -1,3 +1,4 @@
+"use strict"
 let captchaNumeros = document.getElementById("captchaNumeros");
 let btnEnviar = document.getElementById("btnEnviar");
 let captchaResultado = document.getElementById("captchaResultado");
