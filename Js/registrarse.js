@@ -40,7 +40,9 @@ function validar(){
 
 function borrarcomentario(evento){  
     evento.preventDefault();
-    comentario=[];    
+    comentario=[]; 
+   
 } 
 let btborrar=document.getElementById("borrar_ultimo");
 btborrar.addEventListener("click",borrarultimo);
+
