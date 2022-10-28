@@ -1,4 +1,4 @@
-
+"use estrict"
 
 function convertir() {
    var valore= parseInt(document.getElementById("valor").value);

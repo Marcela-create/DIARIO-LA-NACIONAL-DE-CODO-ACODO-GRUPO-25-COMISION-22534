@@ -10,7 +10,7 @@ function startTime(){
     document.getElementById("reloj").innerHTML=h+":"+m+":"+s;
     let t=setTimeout("startTime()",500);
 }// Construimos el formato de salida esta escrito en htmlporque no responde por aca
-// document.getElementById("reloj").classList.add("digital");
+// document.getElementById("#reloj").classList.add(".digital");
 //document.write("Hora:"+ getHours(),"Minutos: "+ getMinutes(),"Segundos: "+ getSeconds());
 
 
@@ -24,5 +24,6 @@ function startTime(){
      const dias_semana = ['Domingo', 'Lunes', 'martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];// Creamos array con los días del año
      const fecha = new Date();
 // Construimos el formato de salida que esta escrito en html porque no responde pro aca
-// document.getElementById("fecha").classList.add("digitalizado");
+//const list = element.classList;
+//document.getElementById("#fecha").list.add(".digitalizado");
 //document.write(dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' + meses[fecha.getMonth()] + ' de ' + fecha.getUTCFullYear());
