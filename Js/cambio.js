@@ -3,8 +3,8 @@
 function convertir() {
    var valore= parseInt(document.getElementById("valor").value);
    var resultado= 0;
-   var dolar= 161.83;
-   var euro= 162.22;
+   var dolar= 165.15; 
+   var euro= 163.23;
    if (document.getElementById ("uno").checked) {
      resultado=valore/dolar;
      alert ("El cambio de pesos Arg a Dolares es:$"+ resultado);
