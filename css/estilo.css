@@ -783,11 +783,12 @@ aside{
     border-color: black;
 
 }
+}
 /* Extra large devices (large desktops, 1200px and up)*/
-@media screen (min-width: 1200px) 
+@media screen (min-width: 1200px){
     
      /*sección article del home y politica*/
-  /*   article{
+     article{
         margin: 10px; 
        width: 600px; 
     
@@ -799,7 +800,7 @@ aside{
     }
 
     .imgArticle{  /*imagenes del index*/
- /*       width: 99%;     
+       width: 99%;     
     } 
 
     .dosColumnas{
@@ -814,7 +815,7 @@ aside{
         font-size: 80px;
     }
     /* sección política*/
-   /* .animate__hinge{
+   .animate__hinge{
         margin-top: 8rem;
     }
     .animate__rollIn{
@@ -858,7 +859,7 @@ aside{
       font-size: large;
     }
     /*sección deportes*/
-  /*  aside{
+    aside{
       
         margin: 1rem;
         height: 750px;
@@ -876,7 +877,7 @@ aside{
     
      }
       /*las leonas de deportes y company de espectaculos*/
- /*.deportes{
+ .deportes{
     width: 90%;  
     margin-top: 14rem;
    
@@ -914,5 +915,6 @@ aside{
     margin-bottom: 20px;
     text-align: center;
     
-}*/
+}
+}
 
